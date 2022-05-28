@@ -1,0 +1,43 @@
+.top-bar{
+    width: 100%;
+    background-color: black;
+    color:white;
+    padding:1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.top-bar-head{
+    display: flex;
+    justify-content: center;
+    font-size: larger !important;
+}
+.top-bar-info{
+
+}
+a:hover,
+a:link,
+a:visited,
+a:active{
+    color: white;
+    text-decoration: none;
+}
+.top-bar-head-icon{
+    padding-top: 0.2rem;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
+    background-color: transparent;
+}
+@keyframes rotate {
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+@media screen and (max-width: 500px) {
+    .top-bar-info{
+        padding-right: 3rem ;
+        padding-top: 0.2rem;
+    }
+}
