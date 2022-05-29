@@ -6,9 +6,10 @@ const TopBar = () => {
   return (
     
     <div className='top-bar'>
-        <span className='top-bar-head'><WbSunnyIcon className='top-bar-head-icon'/>
-        Weather<WbSunnyIcon className='top-bar-head-icon'/></span>
-        <span className="top-bar-info"><a href="">About Me</a></span>
+        <span className='top-bar-head'><WbSunnyIcon className='top-bar-head-icon' fontSize='large'/>
+        WEATHER<WbSunnyIcon className='top-bar-head-icon' fontSize='large'/></span>
+        <span className="top-bar-info"><a href="https://akshatgadodia.github.io/personalwebsite/" target='_blank' rel="noreferrer">
+          About Me</a></span>
     </div>
   )
 }

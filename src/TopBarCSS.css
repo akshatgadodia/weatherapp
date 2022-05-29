@@ -12,7 +12,7 @@
     font-size: larger !important;
 }
 .top-bar-info{
-
+    padding-top: 0.2rem;
 }
 a:hover,
 a:link,
@@ -22,7 +22,10 @@ a:active{
     text-decoration: none;
 }
 .top-bar-head-icon{
-    padding-top: 0.2rem;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    bottom : 0.3vh;
     animation-name: rotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -37,7 +40,11 @@ a:active{
 }
 @media screen and (max-width: 500px) {
     .top-bar-info{
-        padding-right: 3rem ;
+        padding-right: 1.6rem ;
         padding-top: 0.2rem;
+    }
+    .top-bar-head-icon{
+        position: relative;
+        bottom : 0.4vh;
     }
 }
