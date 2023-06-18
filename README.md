@@ -1,4 +1,4 @@
-## Weather App - ReactJS
+## Weather App
 
 ![Weather App](assets/weather-app-screenshot.png)
 
@@ -7,7 +7,6 @@ This repository contains a weather application built with ReactJS that utilizes 
 ### Features
 
 - **Current Weather**: Get the current weather conditions, including temperature, humidity, wind speed, and a brief description of the weather.
-- **Forecast**: View a 5-day weather forecast, including daily maximum and minimum temperatures, weather icons, and descriptions.
 - **Search**: Search for weather information by entering the name of a city or location. The app will fetch and display the weather data for the specified location.
 - **Geolocation**: Utilize the user's geolocation to automatically display the weather information for their current location.
 - **Responsive Design**: The app is designed to be fully responsive, providing an optimal user experience across various devices and screen sizes.
