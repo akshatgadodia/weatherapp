@@ -1,6 +1,6 @@
 ## Weather App - ReactJS
 
-![Weather App](weather-app-screenshot.png)
+![Weather App](assets/weather-app-screenshot.png)
 
 This repository contains a weather application built with ReactJS that utilizes the OpenWeather API to provide real-time weather data for locations around the world. The app offers a clean and intuitive user interface, allowing users to easily retrieve weather information for a specific location.
 
@@ -27,7 +27,7 @@ To get started with the Weather App locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/akshatgadodia/weatherapp.git`
 2. Navigate to the project directory: `cd weather-app`
 3. Install the dependencies: `npm install`
-4. Obtain an API key from [OpenWeather](https://openweathermap.org/) and replace `YOUR_API_KEY` in the `src/api/index.js` file with your actual API key.
+4. Obtain an API key from [OpenWeather](https://openweathermap.org/) and replace `YOUR_API_KEY` in the `src/Weather.js` file with your actual API key.
 5. Start the development server: `npm start`
 6. Open your browser and visit `http://localhost:3000` to access the Weather App.
 
@@ -41,6 +41,6 @@ This project is licensed under the [MIT License](LICENSE), allowing you to use, 
 
 ### Acknowledgments
 
-This Weather App was developed by [Your Name] as a personal project, with inspiration from various online tutorials and resources. Special thanks to the creators of ReactJS, OpenWeather API, and the supportive community for their valuable contributions to open-source software development.
+This Weather App was developed by Akshat Gadodia as a personal project, with inspiration from various online tutorials and resources. Special thanks to the creators of ReactJS, OpenWeather API, and the supportive community for their valuable contributions to open-source software development.
 
 Enjoy exploring the Weather App and stay informed about the weather conditions in any location!
