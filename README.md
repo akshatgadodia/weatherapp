@@ -1,6 +1,6 @@
 ## Weather App
 
-![Weather App](assets/weather-app-screenshot.PNG)
+![Weather App](./assets/weather-app-screenshot.PNG)
 
 This repository contains a weather application built with ReactJS that utilizes the OpenWeather API to provide real-time weather data for locations around the world. The app offers a clean and intuitive user interface, allowing users to easily retrieve weather information for a specific location.
 
